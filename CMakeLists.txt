@@ -28,7 +28,7 @@ target_include_directories(
   "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>"
 )
 
-target_compile_features(tomlplusplus_tomlplusplus INTERFACE cxx_std_17)
+target_compile_features(tomlplusplus_tomlplusplus INTERFACE cxx_std_20)
 
 # ---- Install rules and examples ----
 if(PROJECT_IS_TOP_LEVEL)
